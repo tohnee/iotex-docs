@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Libraries and Tools | Documentation</title>
+    <meta name="description" content="by the community for the community">
+    <link rel="icon" href="/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.f9cf778d.css" as="style"><link rel="preload" href="/assets/js/app.a9902d29.js" as="script"><link rel="preload" href="/assets/js/2.3fbdcbfd.js" as="script"><link rel="preload" href="/assets/js/6.3d0a6b1d.js" as="script"><link rel="prefetch" href="/assets/js/10.c3ae1587.js"><link rel="prefetch" href="/assets/js/11.5f8757d2.js"><link rel="prefetch" href="/assets/js/3.47e2e978.js"><link rel="prefetch" href="/assets/js/4.b2ff0a60.js"><link rel="prefetch" href="/assets/js/5.caf1d3be.js"><link rel="prefetch" href="/assets/js/7.cd0bae2d.js"><link rel="prefetch" href="/assets/js/8.2a30a176.js"><link rel="prefetch" href="/assets/js/9.8e3e7702.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f9cf778d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.svg" alt="Documentation" class="logo"> <span class="site-name can-hide">Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Blockchain</a></div><div class="nav-item"><a href="/onefx/get-started.html" class="nav-link">OneFx</a></div> <a href="https://github.com/iotexproject/iotex-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Blockchain</a></div><div class="nav-item"><a href="/onefx/get-started.html" class="nav-link">OneFx</a></div> <a href="https://github.com/iotexproject/iotex-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/" class="sidebar-link">Get Started</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/#build-and-run" class="sidebar-link">Build and Run</a></li><li class="sidebar-sub-header"><a href="/#ioctl-command-line-interface" class="sidebar-link">ioctl (command-line interface)</a></li><li class="sidebar-sub-header"><a href="/#usage-and-examples" class="sidebar-link">Usage and Examples</a></li><li class="sidebar-sub-header"><a href="/#config" class="sidebar-link">Config</a></li><li class="sidebar-sub-header"><a href="/#account" class="sidebar-link">Account</a></li><li class="sidebar-sub-header"><a href="/#alias" class="sidebar-link">Alias</a></li><li class="sidebar-sub-header"><a href="/#action" class="sidebar-link">Action</a></li><li class="sidebar-sub-header"><a href="/#xrc20" class="sidebar-link">XRC20</a></li><li class="sidebar-sub-header"><a href="/#blockchain" class="sidebar-link">Blockchain</a></li><li class="sidebar-sub-header"><a href="/#node" class="sidebar-link">Node</a></li><li class="sidebar-sub-header"><a href="/#update-tools" class="sidebar-link">Update tools</a></li><li class="sidebar-sub-header"><a href="/#bookkeeping" class="sidebar-link">Bookkeeping</a></li><li class="sidebar-sub-header"><a href="/#action-injector" class="sidebar-link">Action Injector</a></li><li class="sidebar-sub-header"><a href="/#explorer" class="sidebar-link">Explorer</a></li><li class="sidebar-sub-header"><a href="/#api" class="sidebar-link">API</a></li><li class="sidebar-sub-header"><a href="/#analytics" class="sidebar-link">Analytics</a></li><li class="sidebar-sub-header"><a href="/#testnet" class="sidebar-link">Testnet</a></li><li class="sidebar-sub-header"><a href="/#write-a-smart-contract" class="sidebar-link">Write a Smart Contract</a></li><li class="sidebar-sub-header"><a href="/#glossary" class="sidebar-link">Glossary</a></li></ul></li><li><a href="/docs/libraries-and-tools.html" class="active sidebar-link">Libraries and Tools</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#sdk-overview" class="sidebar-link">SDK Overview</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#account" class="sidebar-link">Account</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#transfer" class="sidebar-link">Transfer</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#smart-contract" class="sidebar-link">Smart Contract</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#rpc-methods" class="sidebar-link">RPC Methods</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#xrc20" class="sidebar-link">XRC20</a></li><li class="sidebar-sub-header"><a href="/docs/libraries-and-tools.html#working-with-desktop-wallet" class="sidebar-link">Working with Desktop Wallet</a></li></ul></li><li><a href="/docs/misc.html" class="sidebar-link">Misc</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/misc.html#contributing" class="sidebar-link">Contributing</a></li><li class="sidebar-sub-header"><a href="/docs/misc.html#faq" class="sidebar-link">FAQ</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h2 id="sdk-overview"><a href="#sdk-overview" aria-hidden="true" class="header-anchor">#</a> SDK Overview</h2> <p><code>iotex-antenna</code> is our SDK allowing you to interact with a local or remote iotex blockchain node, using a gRPC or gRPC-web connection.</p> <h3 id="installation"><a href="#installation" aria-hidden="true" class="header-anchor">#</a> Installation</h3> <p>In your JS project root, use <code>npm install</code> or <code>yarn add</code>.</p> <div class="language-js extra-class"><pre class="language-js"><code>npm install iotex<span class="token operator">-</span>antenna
+</code></pre></div><p>In your Golang project root, use <code>go dep</code> or <code>go mod</code>.</p> <div class="language-golang extra-class"><pre class="language-text"><code>go get -u github.com/iotexproject/iotex-antenna-go
+</code></pre></div><h3 id="quick-start"><a href="#quick-start" aria-hidden="true" class="header-anchor">#</a> Quick Start</h3> <p>Using JS/Golang SDK</p> <ol><li><a href="/docs/libraries-and-tools.html#account">generate an account / recover an account from the private key</a></li> <li><a href="/docs/libraries-and-tools.html#transfer">transfer tokens</a></li> <li><a href="/docs/libraries-and-tools.html#smart-contract">run smart contracts</a></li> <li><a href="/docs/libraries-and-tools.html#rpc-methods">make RPC calls</a></li> <li><a href="/#api-2-0">check the complete API references</a></li></ol> <p>Using GraphQL</p> <ol><li><a href="https://iotexscan.io/doc/api-gateway/query.doc.html" target="_blank" rel="noopener noreferrer">Documentation<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://iotexscan.io/api-gateway/" target="_blank" rel="noopener noreferrer">GraphQL Playground<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ol> <p>Having questions? Ask in <a href="https://gitter.im/iotex-dev-community/Lobby" target="_blank" rel="noopener noreferrer">our gitter chat room<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h2 id="account"><a href="#account" aria-hidden="true" class="header-anchor">#</a> Account</h2> <p>The <code>antenna.iotx.accounts</code> contains functions to generate Iotex accounts and sign transactions and data.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// create a new wallet which contains a public key, a private key, and an address.</span>
+  <span class="token keyword">const</span> wallet <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// recover the whole wallet from a single private key</span>
+  <span class="token keyword">const</span> unlockedWallet <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;69805ee813eadffa8fae53d0e6063e5fbf6a6e0fb9e90f6eaad7bc67f3d6c4bd&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/v2/account&quot;</span>
+
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+	<span class="token comment">// create a new wallet which contains a public key, a private key, and an address.</span>
+	wallet<span class="token punctuation">,</span> err <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">NewAccount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatal</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token comment">// recover the whole wallet from a single private key</span>
+	acc<span class="token punctuation">,</span> err <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">HexStringToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;69805ee813eadffa8fae53d0e6063e5fbf6a6e0fb9e90f6eaad7bc67f3d6c4bd&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;create account error: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>acc<span class="token punctuation">.</span>Address<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></section></div></div> <h2 id="transfer"><a href="#transfer" aria-hidden="true" class="header-anchor">#</a> Transfer</h2> <p><code>antenna.iotx.accounts</code> create, sign, and send a transaction of transfer to iotex blockchain network.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> toRau <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/account/utils&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> unlockedWallet <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;73c7b4a62bf165dccf8ebdea8278db811efd5b8638e2ed9683d2d94889450426&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newWallet <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token string">&quot;any entropy&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> actionHash <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">sendTransfer</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> unlockedWallet<span class="token punctuation">.</span>address<span class="token punctuation">,</span>
+    to<span class="token punctuation">:</span> newWallet<span class="token punctuation">.</span>address<span class="token punctuation">,</span>
+    value<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;iotx&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;100000&quot;</span><span class="token punctuation">,</span>
+    gasPrice<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Qev&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;context&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;math/big&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/v2/account&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/v2/iotex&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-proto/golang/iotexapi&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	conn<span class="token punctuation">,</span> err <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewDefaultGRPCConn</span><span class="token punctuation">(</span><span class="token string">&quot;api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;connection error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">defer</span> conn<span class="token punctuation">.</span><span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+	acc<span class="token punctuation">,</span> err <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">HexStringToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;9cdf22c5caa8a4d99eb674da27756b438c05c6b1e8995f4a0586745e2071b115&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;create account from private key error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	c <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewAuthedClient</span><span class="token punctuation">(</span>iotexapi<span class="token punctuation">.</span><span class="token function">NewAPIServiceClient</span><span class="token punctuation">(</span>conn<span class="token punctuation">)</span><span class="token punctuation">,</span> acc<span class="token punctuation">)</span>
+
+	to<span class="token punctuation">,</span> err <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">NewAccount</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;create new account error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	v <span class="token operator">:=</span> big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">1000000000000000000</span><span class="token punctuation">)</span>
+	hash<span class="token punctuation">,</span> err <span class="token operator">:=</span> c<span class="token punctuation">.</span><span class="token function">Transfer</span><span class="token punctuation">(</span>to<span class="token punctuation">.</span><span class="token function">Address</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> v<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasPrice</span><span class="token punctuation">(</span>big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasLimit</span><span class="token punctuation">(</span><span class="token number">1000000</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Call</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">Background</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;transfer error %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>hash<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre></div></section></div></div> <p>To see the result of the transfer action, you can ether go to <code>https://iotexscan.io/action/:actionHash</code> or query like</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> action <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getActions</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byHash<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    actionHash<span class="token punctuation">:</span>
+      <span class="token string">&quot;91524e81da32c2ad75af76c673b2e01920e69a95737a4a5438e6d0da6b910616&quot;</span><span class="token punctuation">,</span>
+    checkingPending<span class="token punctuation">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code>action<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetActions</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest<span class="token punctuation">{</span>
+  Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest_ByHash<span class="token punctuation">{</span>
+    ByHash<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionByHashRequest<span class="token punctuation">{</span>
+      ActionHash<span class="token punctuation">:</span>   <span class="token string">&quot;91524e81da32c2ad75af76c673b2e01920e69a95737a4a5438e6d0da6b910616&quot;</span><span class="token punctuation">,</span>
+      CheckPending<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></section></div></div> <h2 id="smart-contract"><a href="#smart-contract" aria-hidden="true" class="header-anchor">#</a> Smart Contract</h2> <p>The <code>iotx.Contract</code> class makes it easy to interact with smart contracts on the iotex blockchain. When you create a new contract object, you give it the json interface of the respective smart contract, and it will auto converts all calls into low-level ABI calls over RPC for you.</p> <p>This allows you to interact with smart contracts as if they were JavaScript objects.</p> <h3 id="compiling-solidity"><a href="#compiling-solidity" aria-hidden="true" class="header-anchor">#</a> Compiling Solidity</h3> <p><code>iotex-antenna</code> does not compile solidity. However, you can use the following ways to get ABI and bytecode.</p> <ol><li><p>option 1: use https://iotexscan.io/wallet/smart-contract/deploy</p></li> <li><p>option 2: in Node.js, use <a href="https://www.npmjs.com/package/solc" target="_blank" rel="noopener noreferrer"><code>solc@0.4.25</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> solc <span class="token keyword">from</span> <span class="token string">&quot;solc&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> solidityFileString <span class="token operator">=</span> <span class="token template-string"><span class="token string">`
+pragma solidity ^0.4.16;
+
+contract SimpleStorage {
+   uint storedData;
+
+   function set(uint x) public {
+       storedData = x;
+   }
+
+   function get() public view returns (uint) {
+       return storedData;
+   }
+}
+`</span></span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> contractName <span class="token operator">=</span> <span class="token string">&quot;:SimpleStorage&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> output <span class="token operator">=</span> solc<span class="token punctuation">.</span><span class="token function">compile</span><span class="token punctuation">(</span>solidityFileString<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> abi <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>output<span class="token punctuation">.</span>contracts<span class="token punctuation">[</span>contractName<span class="token punctuation">]</span><span class="token punctuation">.</span>interface<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> bytecode <span class="token operator">=</span> output<span class="token punctuation">.</span>contracts<span class="token punctuation">[</span>contractName<span class="token punctuation">]</span><span class="token punctuation">.</span>bytecode<span class="token punctuation">;</span>
+</code></pre></div><ol start="3"><li>option 3: in browser, use <a href="https://www.npmjs.com/package/browser-solc" target="_blank" rel="noopener noreferrer">browser-solc<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. <a href="https://github.com/iotexproject/iotex-explorer/blob/master/src/shared/wallet/contract/deploy.tsx#L114" target="_blank" rel="noopener noreferrer">Here is an example from iotex-explorer<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</li></ol> <h3 id="deploying-contract"><a href="#deploying-contract" aria-hidden="true" class="header-anchor">#</a> Deploying Contract</h3> <p>Once you get the abi and bytecode from the step above, then you can deploy it by sending the execution to the iotex blockchain network.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> toRau <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/account/utils&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> bytecode <span class="token operator">=</span>
+    <span class="token string">&quot;608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b114604e5780636d4ce63c146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a7230582043be766a6a271867521090c3e12130ea8891a8f59d4833bc205a3e2e2c70b4730029&quot;</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> abi <span class="token operator">=</span> <span class="token template-string"><span class="token string">`[
+    {
+      constant: false,
+      inputs: [{ name: &quot;x&quot;, type: &quot;uint256&quot; }],
+      name: &quot;set&quot;,
+      outputs: [],
+      payable: false,
+      stateMutability: &quot;nonpayable&quot;,
+      type: &quot;function&quot;
+    },
+    {
+      constant: true,
+      inputs: [],
+      name: &quot;get&quot;,
+      outputs: [{ name: &quot;&quot;, type: &quot;uint256&quot; }],
+      payable: false,
+      stateMutability: &quot;view&quot;,
+      type: &quot;function&quot;
+    },
+    {
+      inputs: [{ name: &quot;_x&quot;, type: &quot;uint256&quot; }],
+      payable: false,
+      stateMutability: &quot;nonpayable&quot;,
+      type: &quot;constructor&quot;
+    }
+  ]`</span></span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> creator <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;73c7b4a62bf165dccf8ebdea8278db811efd5b8638e2ed9683d2d94889450426&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> actionHash <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">deployContract</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> creator<span class="token punctuation">.</span>address<span class="token punctuation">,</span>
+    amount<span class="token punctuation">:</span> <span class="token string">&quot;0&quot;</span><span class="token punctuation">,</span>
+    abi<span class="token punctuation">:</span> abi<span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span> Buffer<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>bytecode<span class="token punctuation">,</span> <span class="token string">&quot;hex&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    gasPrice<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Qev&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;100000&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;context&quot;</span>
+	<span class="token string">&quot;encoding/hex&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;math/big&quot;</span>
+	<span class="token string">&quot;strings&quot;</span>
+
+	<span class="token string">&quot;github.com/ethereum/go-ethereum/accounts/abi&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/account&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/iotex&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-proto/golang/iotexapi&quot;</span>
+
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	conn<span class="token punctuation">,</span> err <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewDefaultGRPCConn</span><span class="token punctuation">(</span><span class="token string">&quot;api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;connection error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">defer</span> conn<span class="token punctuation">.</span><span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	creator<span class="token punctuation">,</span> <span class="token boolean">_</span> <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">HexStringToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;73c7b4a62bf165dccf8ebdea8278db811efd5b8638e2ed9683d2d94889450426&quot;</span><span class="token punctuation">)</span>
+	c <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewAuthedClient</span><span class="token punctuation">(</span>iotexapi<span class="token punctuation">.</span><span class="token function">NewAPIServiceClient</span><span class="token punctuation">(</span>conn<span class="token punctuation">)</span><span class="token punctuation">,</span> creator<span class="token punctuation">)</span>
+
+	abi<span class="token punctuation">,</span> err <span class="token operator">:=</span> abi<span class="token punctuation">.</span><span class="token function">JSON</span><span class="token punctuation">(</span>strings<span class="token punctuation">.</span><span class="token function">NewReader</span><span class="token punctuation">(</span><span class="token string">`[{&quot;constant&quot;:false,&quot;inputs&quot;:[{&quot;name&quot;:&quot;x&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;name&quot;:&quot;set&quot;,&quot;outputs&quot;:[],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;nonpayable&quot;,&quot;type&quot;:&quot;function&quot;},{&quot;constant&quot;:true,&quot;inputs&quot;:[],&quot;name&quot;:&quot;get&quot;,&quot;outputs&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;view&quot;,&quot;type&quot;:&quot;function&quot;},{&quot;inputs&quot;:[{&quot;name&quot;:&quot;_x&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;nonpayable&quot;,&quot;type&quot;:&quot;constructor&quot;}]`</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;JSON error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	bytecode <span class="token operator">:=</span> <span class="token string">&quot;608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b114604e5780636d4ce63c146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a7230582043be766a6a271867521090c3e12130ea8891a8f59d4833bc205a3e2e2c70b4730029&quot;</span>
+	data<span class="token punctuation">,</span> err <span class="token operator">:=</span> hex<span class="token punctuation">.</span><span class="token function">DecodeString</span><span class="token punctuation">(</span>bytecode<span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;Hex Decoding error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	actionHash<span class="token punctuation">,</span> err <span class="token operator">:=</span> c<span class="token punctuation">.</span><span class="token function">DeployContract</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasPrice</span><span class="token punctuation">(</span>big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasLimit</span><span class="token punctuation">(</span><span class="token number">1000000</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetArgs</span><span class="token punctuation">(</span>abi<span class="token punctuation">,</span> big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Call</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">Background</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;deploy error: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>actionHash<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></section></div></div> <p>Need a full example? <a href="https://github.com/iotexproject/iotex-antenna/blob/master/src/__test__/iotx.integration.test.ts#L98" target="_blank" rel="noopener noreferrer">Check our integration test.<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>Once the action is broadcast, you can query the action.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> action <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getActions</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byHash<span class="token punctuation">:</span> actionHash<span class="token punctuation">,</span>
+  checkingPending<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code>action<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetActions</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest<span class="token punctuation">{</span>
+  Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest_ByHash<span class="token punctuation">{</span>
+    ByHash<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionByHashRequest<span class="token punctuation">{</span>
+      ActionHash<span class="token punctuation">:</span>   actionHash<span class="token punctuation">,</span>
+      CheckPending<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></section></div></div> <p>Once the action is minted, you can query the receipt.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> receipt <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getReceiptByAction</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  actionHash<span class="token punctuation">:</span> actionHash
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code>receipt<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetReceiptByAction</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetReceiptByActionRequest<span class="token punctuation">{</span>
+  ActionHash<span class="token punctuation">:</span> actionHash<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></section></div></div> <h3 id="interacting-with-smart-contract"><a href="#interacting-with-smart-contract" aria-hidden="true" class="header-anchor">#</a> Interacting with Smart Contract</h3> <p>After you get the contract address from the receipt, you can interact with the contract by constructing the contract first, and then calling contract functions.</p> <p>There are methods <code>set</code> and <code>get</code> in the example contract <code>SimpleStorage</code> defined in the <a href="#compiling-solidity">solidity string above</a>, so you can call them as the following.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Contract <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/contract/contract&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> sender <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;73c7b4a62bf165dccf8ebdea8278db811efd5b8638e2ed9683d2d94889450426&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> contract <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Contract</span><span class="token punctuation">(</span>
+    <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;x&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;set&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;nonpayable&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;get&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;view&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;io186s45j3rgvhxh25ec6xk9wap0drtthk3jq4du7&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      provider<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> actionHash <span class="token operator">=</span> <span class="token keyword">await</span> contract<span class="token punctuation">.</span>methods<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">101</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    account<span class="token punctuation">:</span> sender<span class="token punctuation">,</span>
+    gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;1000000&quot;</span><span class="token punctuation">,</span>
+    gasPrice<span class="token punctuation">:</span> <span class="token string">&quot;1000000000000&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> getResult <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">readContractByMethod</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> sender<span class="token punctuation">.</span>address<span class="token punctuation">,</span>
+    contractAddress<span class="token punctuation">:</span> <span class="token string">&quot;io186s45j3rgvhxh25ec6xk9wap0drtthk3jq4du7&quot;</span><span class="token punctuation">,</span>
+    abi<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;x&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;set&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;nonpayable&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;get&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;view&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    method<span class="token punctuation">:</span> <span class="token string">&quot;get&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;context&quot;</span>
+	<span class="token string">&quot;fmt&quot;</span>
+	<span class="token string">&quot;log&quot;</span>
+	<span class="token string">&quot;math/big&quot;</span>
+	<span class="token string">&quot;strings&quot;</span>
+
+	<span class="token string">&quot;github.com/ethereum/go-ethereum/accounts/abi&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-address/address&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/account&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/iotex&quot;</span>
+	<span class="token string">&quot;github.com/iotexproject/iotex-proto/golang/iotexapi&quot;</span>
+
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	conn<span class="token punctuation">,</span> err <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewDefaultGRPCConn</span><span class="token punctuation">(</span><span class="token string">&quot;api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;connection error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">defer</span> conn<span class="token punctuation">.</span><span class="token function">Close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+	creator<span class="token punctuation">,</span> <span class="token boolean">_</span> <span class="token operator">:=</span> account<span class="token punctuation">.</span><span class="token function">HexStringToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;73c7b4a62bf165dccf8ebdea8278db811efd5b8638e2ed9683d2d94889450426&quot;</span><span class="token punctuation">)</span>
+	c <span class="token operator">:=</span> iotex<span class="token punctuation">.</span><span class="token function">NewAuthedClient</span><span class="token punctuation">(</span>iotexapi<span class="token punctuation">.</span><span class="token function">NewAPIServiceClient</span><span class="token punctuation">(</span>conn<span class="token punctuation">)</span><span class="token punctuation">,</span> creator<span class="token punctuation">)</span>
+
+	abi<span class="token punctuation">,</span> err <span class="token operator">:=</span> abi<span class="token punctuation">.</span><span class="token function">JSON</span><span class="token punctuation">(</span>strings<span class="token punctuation">.</span><span class="token function">NewReader</span><span class="token punctuation">(</span><span class="token string">`[{&quot;constant&quot;:false,&quot;inputs&quot;:[{&quot;name&quot;:&quot;x&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;name&quot;:&quot;set&quot;,&quot;outputs&quot;:[],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;nonpayable&quot;,&quot;type&quot;:&quot;function&quot;},{&quot;constant&quot;:true,&quot;inputs&quot;:[],&quot;name&quot;:&quot;get&quot;,&quot;outputs&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;view&quot;,&quot;type&quot;:&quot;function&quot;},{&quot;inputs&quot;:[{&quot;name&quot;:&quot;_x&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;nonpayable&quot;,&quot;type&quot;:&quot;constructor&quot;}]`</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;JSON error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	contract<span class="token punctuation">,</span> err <span class="token operator">:=</span> address<span class="token punctuation">.</span><span class="token function">FromString</span><span class="token punctuation">(</span><span class="token string">&quot;io17sn486alutrnzlrdz9vv44g7qyc38hygf7s6h0&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;JSON error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	<span class="token comment">//contract execution test</span>
+	actionHash<span class="token punctuation">,</span> err <span class="token operator">:=</span> c<span class="token punctuation">.</span><span class="token function">Contract</span><span class="token punctuation">(</span>contract<span class="token punctuation">,</span> abi<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Execute</span><span class="token punctuation">(</span><span class="token string">&quot;set&quot;</span><span class="token punctuation">,</span> big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasPrice</span><span class="token punctuation">(</span>big<span class="token punctuation">.</span><span class="token function">NewInt</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">SetGasLimit</span><span class="token punctuation">(</span><span class="token number">1000000</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Call</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">Background</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;Execute error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>actionHash<span class="token punctuation">)</span>
+
+	<span class="token comment">//contract read test</span>
+	result<span class="token punctuation">,</span> err <span class="token operator">:=</span> c<span class="token punctuation">.</span><span class="token function">ReadOnlyContract</span><span class="token punctuation">(</span>contract<span class="token punctuation">,</span> abi<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Read</span><span class="token punctuation">(</span><span class="token string">&quot;get&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">Call</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">Background</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;Read error : %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+	fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></section></div></div> <h2 id="rpc-methods"><a href="#rpc-methods" aria-hidden="true" class="header-anchor">#</a> RPC Methods</h2> <p>The <code>rpc-method</code>(provider) package allows you to make gRPC calls to Iotex blockchain.</p> <p>Use the umbrella antenna.iotex package:</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> account <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getAccount</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    address<span class="token punctuation">:</span> <span class="token string">&quot;io1cl6rl2ev5dfa988qmgzg2x4hfazmp9vn2g66ng&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> chainMeta <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getChainMeta</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> actions <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getActions</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    byIndex<span class="token punctuation">:</span> <span class="token punctuation">{</span> start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> count<span class="token punctuation">:</span> <span class="token number">5</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> blocks <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">getBlockMetas</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    byIndex<span class="token punctuation">:</span> <span class="token punctuation">{</span> start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> count<span class="token punctuation">:</span> <span class="token number">5</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;log&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-core/protogen/iotexapi&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/antenna&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	wallet<span class="token punctuation">,</span> err <span class="token operator">:=</span> antenna<span class="token punctuation">.</span><span class="token function">NewAntenna</span><span class="token punctuation">(</span><span class="token string">&quot;api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;create antenna error: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	account<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetAccount</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetAccountRequest<span class="token punctuation">{</span>Address<span class="token punctuation">:</span> <span class="token string">&quot;io1cl6rl2ev5dfa988qmgzg2x4hfazmp9vn2g66ng&quot;</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+	chainMeta<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetChainMeta</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetChainMetaRequest<span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+	actions<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetActions</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest<span class="token punctuation">{</span>
+		Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest_ByIndex<span class="token punctuation">{</span>
+			ByIndex<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsByIndexRequest<span class="token punctuation">{</span>
+				Start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+				Count<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+	blocks<span class="token punctuation">,</span> err <span class="token operator">:=</span> wallet<span class="token punctuation">.</span>Iotx<span class="token punctuation">.</span><span class="token function">GetBlockMetas</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasRequest<span class="token punctuation">{</span>
+		Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasRequest_ByIndex<span class="token punctuation">{</span>
+			ByIndex<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasByIndexRequest<span class="token punctuation">{</span>
+				Start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+				Count<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></section></div></div> <p>Use this standalone package:</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> RpcMethod <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/rpc-method&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> provider <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RpcMethod</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> account <span class="token operator">=</span> <span class="token keyword">await</span> provider<span class="token punctuation">.</span><span class="token function">getAccount</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    address<span class="token punctuation">:</span> <span class="token string">&quot;io1cl6rl2ev5dfa988qmgzg2x4hfazmp9vn2g66ng&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> chainMeta <span class="token operator">=</span> <span class="token keyword">await</span> provider<span class="token punctuation">.</span><span class="token function">getChainMeta</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> actions <span class="token operator">=</span> <span class="token keyword">await</span> provider<span class="token punctuation">.</span><span class="token function">getActions</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    byIndex<span class="token punctuation">:</span> <span class="token punctuation">{</span> start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> count<span class="token punctuation">:</span> <span class="token number">5</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> blocks <span class="token operator">=</span> <span class="token keyword">await</span> provider<span class="token punctuation">.</span><span class="token function">getBlockMetas</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    byIndex<span class="token punctuation">:</span> <span class="token punctuation">{</span> start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> count<span class="token punctuation">:</span> <span class="token number">5</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section> <section aria-hidden="true" id="golang" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">package</span> main
+
+<span class="token keyword">import</span> <span class="token punctuation">(</span>
+	<span class="token string">&quot;log&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-antenna-go/rpcmethod&quot;</span>
+
+	<span class="token string">&quot;github.com/iotexproject/iotex-core/protogen/iotexapi&quot;</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	provider<span class="token punctuation">,</span> err <span class="token operator">:=</span> rpcmethod<span class="token punctuation">.</span><span class="token function">NewRPCMethod</span><span class="token punctuation">(</span><span class="token string">&quot;api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span>
+	<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		log<span class="token punctuation">.</span><span class="token function">Fatalf</span><span class="token punctuation">(</span><span class="token string">&quot;create antenna error: %v&quot;</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+
+	account<span class="token punctuation">,</span> err <span class="token operator">:=</span> provider<span class="token punctuation">.</span><span class="token function">GetAccount</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetAccountRequest<span class="token punctuation">{</span>Address<span class="token punctuation">:</span> <span class="token string">&quot;io1cl6rl2ev5dfa988qmgzg2x4hfazmp9vn2g66ng&quot;</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+	chainMeta<span class="token punctuation">,</span> err <span class="token operator">:=</span> provider<span class="token punctuation">.</span><span class="token function">GetChainMeta</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetChainMetaRequest<span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+	actions<span class="token punctuation">,</span> err <span class="token operator">:=</span> provider<span class="token punctuation">.</span><span class="token function">GetActions</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest<span class="token punctuation">{</span>
+		Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsRequest_ByIndex<span class="token punctuation">{</span>
+			ByIndex<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetActionsByIndexRequest<span class="token punctuation">{</span>
+				Start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+				Count<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+	blocks<span class="token punctuation">,</span> err <span class="token operator">:=</span> provider<span class="token punctuation">.</span><span class="token function">GetBlockMetas</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasRequest<span class="token punctuation">{</span>
+		Lookup<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasRequest_ByIndex<span class="token punctuation">{</span>
+			ByIndex<span class="token punctuation">:</span> <span class="token operator">&amp;</span>iotexapi<span class="token punctuation">.</span>GetBlockMetasByIndexRequest<span class="token punctuation">{</span>
+				Start<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+				Count<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div></section></div></div> <h2 id="xrc20"><a href="#xrc20" aria-hidden="true" class="header-anchor">#</a> XRC20</h2> <p>The XRC20 package provide facility api for XEC20 contract to Iotex blockchain.</p> <div class="tabs-component"><ul role="tablist" class="tabs-component-tabs"></ul> <div class="tabs-component-panels"><section aria-hidden="true" id="js" role="tabpanel" class="tabs-component-panel" style="display:none;"><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> BigNumber <span class="token keyword">from</span> <span class="token string">&quot;bignumber.js&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> <span class="token constant">XRC20</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/token/xrc20&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.testnet.iotex.one:80&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// init accounts</span>
+  <span class="token keyword">const</span> account1 <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;privateKey1&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> account2 <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;privateKey2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> account3 <span class="token operator">=</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">.</span><span class="token function">privateKeyToAccount</span><span class="token punctuation">(</span><span class="token string">&quot;privateKey3&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// create VITA XRC20 contract instance</span>
+  <span class="token comment">// io1hy9w96v7gz7mqquyyacfhtqn6r0yasnsqrjk9h is contract address</span>
+  <span class="token keyword">const</span> vita <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XRC20</span><span class="token punctuation">(</span><span class="token string">&quot;io1hy9w96v7gz7mqquyyacfhtqn6r0yasnsqrjk9h&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    provider<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// token name: IoTeX Vitality</span>
+  <span class="token keyword">const</span> name <span class="token operator">=</span> <span class="token keyword">await</span> vita<span class="token punctuation">.</span><span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// token symbol: VITA</span>
+  <span class="token keyword">const</span> symbol <span class="token operator">=</span> <span class="token keyword">await</span> vita<span class="token punctuation">.</span><span class="token function">symbol</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// token decimals: 18</span>
+  <span class="token keyword">const</span> decimals <span class="token operator">=</span> <span class="token keyword">await</span> vita<span class="token punctuation">.</span><span class="token function">decimals</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// token balanceOf io16acqxqlmaep6z96khs3ey2607sygnx3surn3ga</span>
+  <span class="token keyword">const</span> balance <span class="token operator">=</span> <span class="token keyword">await</span> vita<span class="token punctuation">.</span><span class="token function">balanceOf</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;io16acqxqlmaep6z96khs3ey2607sygnx3surn3ga&quot;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// transfer token to io16acqxqlmaep6z96khs3ey2607sygnx3surn3ga</span>
+  <span class="token keyword">const</span> hash <span class="token operator">=</span> <span class="token keyword">await</span> vita<span class="token punctuation">.</span><span class="token function">transfer</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;io16acqxqlmaep6z96khs3ey2607sygnx3surn3ga&quot;</span><span class="token punctuation">,</span>
+    <span class="token keyword">new</span> <span class="token class-name">BigNumber</span><span class="token punctuation">(</span><span class="token string">&quot;1000000000000000000&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      account<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      gasPrice<span class="token punctuation">:</span> <span class="token string">&quot;1000000000000&quot;</span><span class="token punctuation">,</span>
+      gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;50000&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// decode method invoke inputs</span>
+  <span class="token keyword">const</span> inputs <span class="token operator">=</span> vita<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span>
+    Buffer<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>
+      <span class="token string">&quot;a9059cbb0000000000000000000000008896780a7912829781f70344ab93e589dddb29300000000000000000000000000000000000000000000000001bc16d674ec80000&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;hex&quot;</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></section></div></div> <h2 id="working-with-desktop-wallet"><a href="#working-with-desktop-wallet" aria-hidden="true" class="header-anchor">#</a> Working with Desktop Wallet</h2> <p>In the client-side, use iotex-antenna@^0.22.0. Here is an example of setting up WsSignerPlugin to connect to the wallet. It is nothing more than applying the plugin when initializing Antenna instance, and NOT adding your private key to the SDK as specified in the earlier documenation.</p> <p>Before receiving the transfer or the contract call above, please open and unlock your wallet. Once the wallet is ready, you can run the script below in both the browser and the node environment and then you can see the message to sign. Please click &quot;Yes, sign transaction&quot; to continue.</p> <h3 id="client-side"><a href="#client-side" aria-hidden="true" class="header-anchor">#</a> Client-side</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> sleepPromise <span class="token keyword">from</span> <span class="token string">&quot;sleep-promise&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Antenna <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> WsSignerPlugin <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/plugin/ws&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> toRau <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/account/utils&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Contract <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;iotex-antenna/lib/contract/contract&quot;</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> antenna <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Antenna</span><span class="token punctuation">(</span><span class="token string">&quot;http://api.iotex.one:80&quot;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    signer<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">WsSignerPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">await</span> <span class="token function">sleepPromise</span><span class="token punctuation">(</span><span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// example for transfer</span>
+  <span class="token keyword">let</span> resp <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">sendTransfer</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    to<span class="token punctuation">:</span> <span class="token string">&quot;io1mwekae7qqwlr23220k5n9z3fmjxz72tuchra3m&quot;</span><span class="token punctuation">,</span>
+    <span class="token keyword">from</span><span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>address<span class="token punctuation">,</span>
+    value<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Iotx&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;100000&quot;</span><span class="token punctuation">,</span>
+    gasPrice<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Qev&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>resp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// example for contract call</span>
+  <span class="token comment">// option 1: using simple executeContract shortcut</span>
+  resp <span class="token operator">=</span> <span class="token keyword">await</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span><span class="token function">executeContract</span><span class="token punctuation">(</span>
+    <span class="token punctuation">{</span>
+      contractAddress<span class="token punctuation">:</span> <span class="token string">&quot;io1jmq0epcswzu7vyquxlr9j9jvplwpvtc4d50ze9&quot;</span><span class="token punctuation">,</span>
+      amount<span class="token punctuation">:</span> <span class="token string">&quot;0&quot;</span><span class="token punctuation">,</span>
+      abi<span class="token punctuation">:</span>
+        <span class="token string">'[{&quot;constant&quot;:false,&quot;inputs&quot;:[{&quot;name&quot;:&quot;x&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;name&quot;:&quot;set&quot;,&quot;outputs&quot;:[],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;nonpayable&quot;,&quot;type&quot;:&quot;function&quot;},{&quot;constant&quot;:true,&quot;inputs&quot;:[],&quot;name&quot;:&quot;get&quot;,&quot;outputs&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;type&quot;:&quot;uint256&quot;}],&quot;payable&quot;:false,&quot;stateMutability&quot;:&quot;view&quot;,&quot;type&quot;:&quot;function&quot;}]'</span><span class="token punctuation">,</span>
+      method<span class="token punctuation">:</span> <span class="token string">&quot;set&quot;</span><span class="token punctuation">,</span>
+      gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;100000&quot;</span><span class="token punctuation">,</span>
+      gasPrice<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Qev&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token keyword">from</span><span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>address
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token number">666</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>resp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// example for contract call</span>
+  <span class="token comment">// option 2: using full-featured contract class</span>
+  <span class="token keyword">const</span> contract <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Contract</span><span class="token punctuation">(</span>
+    <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;x&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;set&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;nonpayable&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        constant<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;get&quot;</span><span class="token punctuation">,</span>
+        outputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span> type<span class="token punctuation">:</span> <span class="token string">&quot;uint256&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        payable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        stateMutability<span class="token punctuation">:</span> <span class="token string">&quot;view&quot;</span><span class="token punctuation">,</span>
+        type<span class="token punctuation">:</span> <span class="token string">&quot;function&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;io1jmq0epcswzu7vyquxlr9j9jvplwpvtc4d50ze9&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span> provider<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">,</span> signer<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>signer <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  resp <span class="token operator">=</span> <span class="token keyword">await</span> contract<span class="token punctuation">.</span>methods<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">999</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    account<span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    gasLimit<span class="token punctuation">:</span> <span class="token string">&quot;300000&quot;</span><span class="token punctuation">,</span>
+    gasPrice<span class="token punctuation">:</span> <span class="token string">&quot;1000000000000&quot;</span><span class="token punctuation">,</span>
+    amount<span class="token punctuation">:</span> <span class="token function">toRau</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token string">&quot;IOTX&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`contract.set() =&gt; </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>resp<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">await</span> <span class="token function">sleepPromise</span><span class="token punctuation">(</span><span class="token number">20000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  resp <span class="token operator">=</span> <span class="token keyword">await</span> contract<span class="token punctuation">.</span>methods<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token keyword">from</span><span class="token punctuation">:</span> antenna<span class="token punctuation">.</span>iotx<span class="token punctuation">.</span>accounts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>address <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`contract.get() =&gt; </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>resp<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/iotexproject/iotex-docs/edit/master/docs/libraries-and-tools.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">8/7/2019, 4:59:01 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/" class="prev router-link-active">
+          Get Started
+        </a></span> <span class="next"><a href="/docs/misc.html">
+          Misc
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a9902d29.js" defer></script><script src="/assets/js/2.3fbdcbfd.js" defer></script><script src="/assets/js/6.3d0a6b1d.js" defer></script>
+  </body>
+</html>
